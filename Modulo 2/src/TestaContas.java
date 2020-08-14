@@ -1,8 +1,8 @@
 
 public class TestaContas {
 	public static void main(String[] args) {
-		Conta contaDoVinicius = new Conta();
-		Conta contaDoGuilherme = new Conta();
+		Conta contaDoVinicius = new Conta(1312,1232);
+		Conta contaDoGuilherme = new Conta(12334,4353);
 		
 		contaDoVinicius.deposita(1000);
 		contaDoGuilherme.deposita(2000);

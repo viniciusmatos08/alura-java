@@ -1,7 +1,7 @@
 
 public class TestaEncapsulamento {
 	public static void main(String[] args) {
-		Conta conta = new Conta();
+		Conta conta = new Conta(1232,3654);
 		Cliente cliente = new Cliente();
 		
 		conta.setNumero(5733);

@@ -3,6 +3,20 @@ public class Conta{
 	private int agencia;
 	private int numero;
 	private Cliente titular;
+	private static int total = 0;
+	
+	
+	public Conta(int agencia, int numero) {
+		total++;
+		this.agencia = agencia;
+		this.numero = numero;
+		this.saldo = 100;
+		System.out.println("Estou criando uma conta!");
+	}
+	
+	public static int getTotal() {
+		return Conta.total;
+	}
 	
 	
 	public int getAgencia() {
