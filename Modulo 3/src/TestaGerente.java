@@ -18,6 +18,7 @@ public class TestaGerente {
 		
 		System.out.println(autenticou);
 		
+		System.out.println(gerente.getBonificacao());
 
 	}
 
