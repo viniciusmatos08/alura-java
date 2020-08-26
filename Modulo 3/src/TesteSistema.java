@@ -8,7 +8,7 @@ public static void main(String[] args) {
 	
 	gerente.setSenha(2222);
 	
-	administrador.setSenha(2222);
+	administrador.setSenha(2232);
 	
 	SistemaInterno sistemaInterno = new SistemaInterno();
 	
