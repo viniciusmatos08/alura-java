@@ -1,4 +1,3 @@
-import java.nio.channels.NonReadableChannelException;
 
 public class Fluxo {
 
@@ -6,7 +5,7 @@ public class Fluxo {
         System.out.println("Ini do main");
         try {
         	metodo1();
-		} catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+		} catch (Exception ex) {
 			String msg = ex.getMessage();
 			System.out.println("Exception: "+msg);
 			ex.printStackTrace();
