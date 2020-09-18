@@ -2,7 +2,7 @@
 
 Repositório referente aos cursos de Java da Alura.
 
-Os cursos estão sendo feitos seguindo o fluxo da **formação Java** da Alura.
+Os cursos estão sendo feitos seguindo o fluxo da [formação Java](https://www.alura.com.br/formacao-java) da Alura.
 
 Links dos cursos (nos links é possível verificar a carga horária de cada curso e o seu conteúdo completo):
 
