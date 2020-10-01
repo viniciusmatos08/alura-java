@@ -78,4 +78,9 @@ public abstract class Conta{
 			conta.deposita(valor);
 	}
 	
+	@Override
+	public String toString() {
+		return "Numero "+this.numero+", Agencia "+this.agencia;
+	}
+	
 }
