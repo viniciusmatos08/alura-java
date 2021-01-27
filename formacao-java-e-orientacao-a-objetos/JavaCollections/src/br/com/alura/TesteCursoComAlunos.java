@@ -21,6 +21,15 @@ public class TesteCursoComAlunos {
 			System.out.println(aluno);
 		});
 		
+		
+		Aluno vinicius = new Aluno("Vinicius", 12312);
+		
+		System.out.println("O aluno Vinicius está matriculado?");
+		System.out.println(curso.estaMatriculado(vinicius));
+		
+		System.out.println("O aluno1 é igual ao Vinicius?");
+		System.out.println(curso.estaMatriculado(vinicius));
+		
 
 	}
 
