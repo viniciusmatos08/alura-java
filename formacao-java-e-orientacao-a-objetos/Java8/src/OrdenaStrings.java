@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.function.Consumer;
-
 public class OrdenaStrings {
 
 	public static void main(String[] args) {
@@ -46,6 +45,17 @@ public class OrdenaStrings {
 		// Aplicando o uso do camparator, porem usando uma expressao lambda e o criterio
 		// de comparação da Classe Integer
 		palavras.sort((s1, s2) -> Integer.compare(s1.length(), s2.length()));
+		
+		//uma maneira ainda mais simples de usar o lambda, utilizando um metodo statico da classe
+		//(alternativa para usar os metodos sem informar a interface todas as vezes: import static java.util.Comparator.*;)
+		//Comparator, e passando como criterio de comparação o metodo lenght da String
+		palavras.sort(Comparator.comparing(s -> s.length()));
+
+		//Utilizando method reference para deixar o codigo ainda mais curto,
+		//alem de curto, fica bem legivel.
+		//basicamente esta informando quer usar o metodo lenght da classe String como parametro.
+		palavras.sort(Comparator.comparing(String::length));
+		
 
 		// forEach recebendo um cosumidor de Strings que foi instanciado no codigo
 		palavras.forEach(consumidor);
@@ -65,6 +75,12 @@ public class OrdenaStrings {
 		// exemplo com apenas um comando dentro do foreach (nao precisa de chaves nem
 		// ponto e virgula)
 		palavras.forEach(s -> System.out.println(s));
+		
+		
+		//Utilizando method reference para mostrar no console cada item iterado pelo forEach na lista de palavras
+		//e uma maneira mais enxuta de se usar lambdas
+		palavras.forEach(System.out::println);
+
 
 		// Exemplo com mais de comando dentro do foreach (nesse caso precisa de chaves e
 		// tambem ponto e virgula)
