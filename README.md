@@ -9,24 +9,25 @@ Links dos cursos (nos links é possível verificar a carga horária de cada curs
 
 ### Cursos Concluidos :heavy_check_mark:
 
-:link: [Java parte 1: Primeiros passos](https://www.alura.com.br/curso-online-java-primeiros-passos) :heavy_check_mark:
+:link: [Modulo 1 - Java JRE e JDK: Escreva o seu primeiro código com Eclipse](https://www.alura.com.br/curso-online-java-primeiros-passos) :heavy_check_mark:
 
-:link: [Java parte 2: Introdução à Orientação a Objetos](https://www.alura.com.br/curso-online-java-introducao-orientacao-objetos) :heavy_check_mark:
+:link: [Modulo 2 - Java OO: Introdução à Orientação a Objetos](https://www.alura.com.br/curso-online-java-introducao-orientacao-objetos) :heavy_check_mark:
 
-:link: [Java parte 3: Entendendo herança e interface](https://www.alura.com.br/curso-online-java-heranca-interfaces-polimorfismo) :heavy_check_mark:
+:link: [Modulo 3 - Java Polimorfismo: Entenda herança e interfaces](https://www.alura.com.br/curso-online-java-heranca-interfaces-polimorfismo) :heavy_check_mark:
 
-:link: [Java parte 4: Entendendo exceções](https://www.alura.com.br/curso-online-java-excecoes) :heavy_check_mark:
+:link: [Modulo 4 - Java Exceções: Aprenda a criar, lançar e controlar exceções](https://www.alura.com.br/curso-online-java-excecoes) :heavy_check_mark:
 
-:link: [Java parte 5: Pacotes e java.lang](https://www.alura.com.br/curso-online-java-pacotes-e-java-lang) :heavy_check_mark:
+:link: [Modulo 5 - Java e java.lang: Programe com a classe Object e String](https://www.alura.com.br/curso-online-java-pacotes-e-java-lang) :heavy_check_mark:
 
-:link: [Java parte 6: Conhecendo o java.util](https://www.alura.com.br/curso-online-java-util-lambdas) :heavy_check_mark:
+:link: [Modulo 6 - Java e java.util: Coleções, Wrappers e Lambda expressions](https://www.alura.com.br/curso-online-java-util-lambdas) :heavy_check_mark:
 
-:link: [Java parte 7: Trabalhando com java.io](https://www.alura.com.br/curso-online-java-trabalhando-com-io) :heavy_check_mark:
+:link: [Modulo 7 - Java e java.io: Streams, Reader e Writers](https://www.alura.com.br/curso-online-java-trabalhando-com-io) :heavy_check_mark:
+
+:link: [Java Collections: Dominando Listas, Sets e Mapas](https://www.alura.com.br/curso-online-java-collections) :heavy_check_mark:
+
+:link: [Java moderno: Tire proveito dos novos recursos do Java 8](https://www.alura.com.br/curso-online-java8-lambdas) :heavy_check_mark:
+
 
 ### Cursos Pendentes :hourglass:
 
-:link: [Java: Dominando as Collections](https://www.alura.com.br/curso-online-java-collections) :hourglass:
-
-:link: [Java moderno: Tire proveito dos novos recursos do Java 8](https://cursos.alura.com.br/course/java8-lambdas) :hourglass:
-
-:link: [Java e Testes: Test Driven Development com Junit](https://cursos.alura.com.br/course/tdd) :hourglass:
+:link: [TDD e Java: Testes automatizados com JUnit](https://www.alura.com.br/curso-online-tdd-java-testes-automatizados-junit) :hourglass:
