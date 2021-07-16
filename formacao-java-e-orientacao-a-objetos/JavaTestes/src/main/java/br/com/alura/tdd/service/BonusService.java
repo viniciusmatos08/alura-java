@@ -13,7 +13,7 @@ public class BonusService {
 		//Caso o bonus seja maior que 1000, o funcionario não é bonificado.
 		BigDecimal valor = funcionario.getSalario().multiply(new BigDecimal("0.1"));
 		if (valor.compareTo(new BigDecimal("1000")) > 0) {
-			valor = BigDecimal.ZERO;
+			throw new IllegalArgumentException("Funcionario com salario maior que R$10000 nao pode receber bonus");
 		}
 		
 		//Define que o valor tera 2 casas decimais e sera arredondado para cima
