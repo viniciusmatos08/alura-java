@@ -1,13 +1,18 @@
 # AluraJava
 
-Repositório referente aos cursos de Java da Alura.
+Repositório referente aos cursos de Java feitos na Alura.
 
-Os cursos estão sendo feitos seguindo o fluxo da [formação Java e Orientação a Objetos](https://www.alura.com.br/formacao-java) da Alura.
+A plataforma de cursos da Alura faz seleções de cursos chamadas "formações", onde existe uma sequencia de cursos estruturada para se obter uma melhor experiencia de aprendizado e poder assim dominar o assunto abordado.
 
-Links dos cursos (nos links é possível verificar a carga horária de cada curso e o seu conteúdo completo):
+Tambem é possivel realizar os cursos de forma avulsa, sem precisar necessariamente seguir uma formação.
 
+Os commits realizados neste repositorio possuem um identificador do curso no inicio do titulo do commit ex.: JavaTestes - <titulo commit> , Java8 - <titulo commit>.
 
-### Cursos Concluidos :heavy_check_mark:
+Nos links dos cursos é possível verificar a carga horária de cada curso e o seu conteúdo completo (assim como no link das formações):
+
+# Cursos
+
+## [Formação Java e Orientação a Objetos](https://www.alura.com.br/formacao-java) :newspaper_roll:	:man_student:
 
 :link: [Modulo 1 - Java JRE e JDK: Escreva o seu primeiro código com Eclipse](https://www.alura.com.br/curso-online-java-primeiros-passos) :heavy_check_mark:
 
@@ -25,9 +30,39 @@ Links dos cursos (nos links é possível verificar a carga horária de cada curs
 
 :link: [Java Collections: Dominando Listas, Sets e Mapas](https://www.alura.com.br/curso-online-java-collections) :heavy_check_mark:
 
-:link: [Java moderno: Tire proveito dos novos recursos do Java 8](https://www.alura.com.br/curso-online-java8-lambdas) :heavy_check_mark:
+:link: [Java moderno: Tire proveito dos novos recursos do Java 8](https://www.alura.com.br/curso-online-java8-lambdas) 
 
+:link: [TDD e Java: Testes automatizados com JUnit](https://www.alura.com.br/curso-online-tdd-java-testes-automatizados-junit) :heavy_check_mark:
 
-### Cursos Pendentes :hourglass:
+## Java EE :open_book:	
 
-:link: [TDD e Java: Testes automatizados com JUnit](https://www.alura.com.br/curso-online-tdd-java-testes-automatizados-junit) :hourglass:
+:link: [Java EE parte 1: Crie sua loja online com CDI, JSF, JPA](https://www.alura.com.br/curso-online-java-ee-webapp) :hourglass:
+
+:link: [Java EE parte 2: Sua loja online com HTML, REST e Cache](https://www.alura.com.br/curso-online-java-ee-webapp-2) :x:
+
+## [Formação Spring Framework](https://www.alura.com.br/formacao-spring-framework) :newspaper_roll:	:man_student:
+
+:link: [Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) :x:
+
+:link: [Java Servlet: Autenticação, autorização e o padrão MVC](https://www.alura.com.br/curso-online-servlet-autenticacao-autorizacao-mvc) :x:
+
+:link: [Maven: Gerenciamento de dependências e build de aplicações Java](https://www.alura.com.br/curso-online-maven-gerenciamento-dependencias-build-aplicacoes-java) :x:
+
+:link: [Java e JDBC: Trabalhando com um banco de dados](https://www.alura.com.br/curso-online-jdbc-dao-persistencia) :x:
+
+:link: [Persistência com JPA: Introdução ao Hibernate](https://www.alura.com.br/curso-online-persistencia-jpa-introducao-hibernate) :x:
+
+:link: [Java e JPA: Consultas avançadas, performance e modelos complexos](https://www.alura.com.br/curso-online-java-jpa-consultas-avancadas-performance-modelos-complexos) :x:
+
+:link: [Spring Data JPA: Repositórios, Consultas, Projeções e Specifications](https://www.alura.com.br/curso-online-spring-data-jpa) :x:
+
+:link: [Spring MVC: Crie um web app com Thymeleaf e Bootstrap](https://www.alura.com.br/curso-online-spring-mvc-thymeleaf-bootstrap) :x:
+
+:link: [Spring MVC: Autenticação com Spring Security, API Rest e AJAX](https://www.alura.com.br/curso-online-spring-mvc-security-rest-vuejs-ajax) :x:
+
+:link: [Spring Boot API REST: Construa uma API](https://www.alura.com.br/curso-online-spring-boot-api-rest) :x:
+
+:link: [Spring Boot API Rest: Segurança da API, Cache e Monitoramento](https://www.alura.com.br/curso-online-spring-boot-seguranca-cache-monitoramento) :x:
+
+:link: [Spring Boot e Teste: Profiles, Testes e Deploy](https://www.alura.com.br/curso-online-spring-boot-profiles-testes-deploy) :x:
+
