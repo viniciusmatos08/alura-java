@@ -12,7 +12,7 @@ Nos links dos cursos é possível verificar a carga horária de cada curso e o s
 
 # Cursos
 
-## [Formação Java e Orientação a Objetos](https://www.alura.com.br/formacao-java) :newspaper_roll:	:man_student:
+## [Formação Java e Orientação a Objetos](https://www.alura.com.br/formacao-java) :man_student:
 
 :link: [Modulo 1 - Java JRE e JDK: Escreva o seu primeiro código com Eclipse](https://www.alura.com.br/curso-online-java-primeiros-passos) :heavy_check_mark:
 
@@ -40,7 +40,7 @@ Nos links dos cursos é possível verificar a carga horária de cada curso e o s
 
 :link: [Java EE parte 2: Sua loja online com HTML, REST e Cache](https://www.alura.com.br/curso-online-java-ee-webapp-2) :x:
 
-## [Formação Spring Framework](https://www.alura.com.br/formacao-spring-framework) :newspaper_roll:	:man_student:
+## [Formação Spring Framework](https://www.alura.com.br/formacao-spring-framework) :man_student:
 
 :link: [Java Servlet: Fundamentos da programação web Java](https://www.alura.com.br/curso-online-servlets-fundamentos-programacao-web-java) :x:
 
