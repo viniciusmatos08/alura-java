@@ -2,10 +2,20 @@ package br.com.casadocodigo.loja.models;
 
 import java.math.BigDecimal;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Lob;
+
+//Usado para que o JPA consiga relacionar o objeto com o banco de dados
+@Entity
 public class Livro {
 	
-
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Integer id;
 	private String titulo;
+	@Lob //iforma que este campo pode ter um conteudo muito extenso
 	private String descricao;
 	private BigDecimal preco;
 	private Integer numeroPaginas;
