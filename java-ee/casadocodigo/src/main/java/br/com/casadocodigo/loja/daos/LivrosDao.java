@@ -7,6 +7,7 @@ import br.com.casadocodigo.loja.models.Livro;
 
 public class LivrosDao {
 
+	//JPA
 	@PersistenceContext
 	private EntityManager manager;
 	

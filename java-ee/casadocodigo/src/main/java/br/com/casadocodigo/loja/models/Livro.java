@@ -15,7 +15,6 @@ public class Livro {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
 	private String titulo;
-	@Lob //iforma que este campo pode ter um conteudo muito extenso
 	private String descricao;
 	private BigDecimal preco;
 	private Integer numeroPaginas;

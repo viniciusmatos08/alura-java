@@ -1,8 +1,11 @@
 package br.com.casadocodigo.loja.beans;
 
 import javax.enterprise.context.RequestScoped;
+import javax.inject.Inject;
 import javax.inject.Named;
+import javax.transaction.Transactional;
 
+import br.com.casadocodigo.loja.daos.LivrosDao;
 import br.com.casadocodigo.loja.models.Livro;
 
 
@@ -24,9 +27,15 @@ public class AdminLivrosBean {
 	
 	private Livro livro = new Livro();
 	
+	//CDI
+	@Inject
+	private LivrosDao dao;
+	
+	//JTA
+	@Transactional
 	public void salvar() {
+		dao.salvar(livro);
 		System.out.println("Livro Cadastrado: " + livro);
-		System.out.println("Livro salvo com sucesso!");
 	}
 
 	public Livro getLivro() {
