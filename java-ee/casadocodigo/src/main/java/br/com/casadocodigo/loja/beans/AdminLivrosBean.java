@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 import javax.enterprise.context.RequestScoped;
+import javax.faces.application.FacesMessage;
+import javax.faces.component.FacesComponent;
+import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 import javax.transaction.Transactional;
@@ -49,7 +52,15 @@ public class AdminLivrosBean {
 		}
 		
 		dao.salvar(livro);
-		System.out.println("Livro Cadastrado: " + livro);
+		/*
+		 * o getFlash() seria para que a ação de mostrar a mensagem seja iniciada
+		 * no primero request, e, ao final do segundo request, a mensagem seja exibida.
+		 * o conceito de Flash seria esse tempo entre um request e o outro.
+		 * 
+		 *  leitura: Externo ao contexto atual, dentro do escopo do Flash, mantenha as mensagens
+		 */ 
+		FacesContext.getCurrentInstance().getExternalContext().getFlash().setKeepMessages(true);
+		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Livro cadastrado com sucesso!"));
 		
 		return "/livros/lista?faces-redirect=true";
 	}
