@@ -9,6 +9,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToMany;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Min;
+
+import org.hibernate.validator.constraints.Length;
+import org.hibernate.validator.constraints.NotBlank;
 
 //Usado para que o JPA consiga relacionar o objeto com o banco de dados
 @Entity
@@ -16,9 +21,15 @@ public class Livro {
 	
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Integer id;
+	@NotBlank
 	private String titulo;
+	//tags do Bean Validation
+	@Length(min=10)
+	@NotBlank
 	private String descricao;
+	@DecimalMin("20")
 	private BigDecimal preco;
+	@Min(50)
 	private Integer numeroPaginas;
 	@ManyToMany
 	private List<Autor> autores = new ArrayList<>();
