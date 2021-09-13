@@ -39,10 +39,12 @@ public class AdminLivrosBean {
 	//CDI
 	@Inject
 	private LivrosDao dao;
-	
-	private List<Integer> autoresId = new ArrayList<Integer>() ;
 	@Inject
 	private AutorDao autorDao;
+	@Inject
+	private FacesContext context;	
+
+	private List<Integer> autoresId = new ArrayList<Integer>();
 	
 	//JTA
 	@Transactional
@@ -59,8 +61,8 @@ public class AdminLivrosBean {
 		 * 
 		 *  leitura: Externo ao contexto atual, dentro do escopo do Flash, mantenha as mensagens
 		 */ 
-		FacesContext.getCurrentInstance().getExternalContext().getFlash().setKeepMessages(true);
-		FacesContext.getCurrentInstance().addMessage(null, new FacesMessage("Livro cadastrado com sucesso!"));
+		context.getExternalContext().getFlash().setKeepMessages(true);
+		context.addMessage(null, new FacesMessage("Livro cadastrado com sucesso!"));
 		
 		return "/livros/lista?faces-redirect=true";
 	}
